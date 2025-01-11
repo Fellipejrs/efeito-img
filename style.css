@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+.box-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid #fff; */
+
+}
+
+img {
+    width: 25vh; /* Define a largura desejada */
+    
+    object-fit: cover; /* Para evitar distorções */
+}
+
+.img1 {
+    /* width: 113px; */
+    transition: transform 0.3s ease;
+}
+
+.img1:hover {
+    transform: scale(1.5);
+}
